@@ -23,7 +23,7 @@ class OutputName extends React.Component {
   
   render() {
       return(
-    <div>
+    <div className="Text-input">
         
       <input type="text" value = {this.state.inputValue} onChange={this.handleInput}/>
       

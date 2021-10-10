@@ -31,7 +31,7 @@ class App extends React.Component {
         className="App"
         style={{ backgroundImage: `url(${arrayImages[this.state.index]})` }}
       > 
-        <p>asdasdsa</p>
+        <p>a</p>
         <Clock />
         <OutputName inputkey="inputValue" />
         <OutputName inputkey="inputValueFocus" />

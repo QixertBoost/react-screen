@@ -1,11 +1,19 @@
 
 .App {
+  
+  height: 100vh;
+}
+.Clock{
   text-align: center;
-  font-size: large;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  margin-top: 230px;
+  font-size: 50px;
+}
+.Text-input{
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
 }
